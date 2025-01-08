@@ -22,5 +22,5 @@ app.use("/api/auth", authRouter);
 app.use("/api/recipe",recipeRouter)
 app.listen(port, (req, res) => {
   connectDB();
-  console.log(`App is running on ${port}`);
+  console.log(`server  is running on ${port}`);
 });
